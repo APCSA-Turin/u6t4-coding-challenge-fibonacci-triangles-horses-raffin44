@@ -1,31 +1,29 @@
 package com.example.project;
 
-public class Horse  {
+public class Horse {
     private String name;
     private int weight;
 
+    // Constructor to initialize the horse with name and weight
     public Horse(String name, int weight) {
-        //implement here
+        this.name = name;
+        this.weight = weight;
     }
 
-    /** @return the horse's name */
+    // Getter for the horse's name
     public String getName() {
-        return "";
+        return name;
     }
 
-    /** @return the horse's weight */
+    // Getter for the horse's weight
     public int getWeight() {
-        return 0;
+        return weight;
     }
 
-    /** @return a printable String of the Horse -> name: Cathy weight: 1500*/
+    // Method to return a string representation of the horse
     public String horseInfo() {
         return "name: " + name + ", weight: " + weight;
     }
 }
-
-
- 
- 
 
 

@@ -51,7 +51,7 @@ public class Fibonacci {
    */
   public void extendBy(int howManyMore) {
     int[] extendedSequence = new int[sequence.length + howManyMore];
-    for(int i = 0; i < extendedSequence.length; i++){
+    for(int i = 0; i < extendedSequence.length; i++){                             
       if(i < sequence.length){
         extendedSequence[i] = sequence[i];
       } else{
